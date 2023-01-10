@@ -1,1 +1,57 @@
-@import '~bootstrap/scss/bootstrap'
+@import '~bootstrap/scss/bootstrap';
+@import '@fortawesome/fontawesome-free/css/all.min.css';
+
+header {
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #0078AA;
+    padding: 0 30px;
+    ul {
+        display: flex;
+        align-items: center;
+        list-style: none;
+    }
+    li{
+        margin-right: 20px;
+    }
+    a {
+        text-decoration: none;
+        color: black;
+        font-size: 20px;
+        &:hover{
+            color: white;
+        }
+    }
+    i {
+        font-size: 40px;
+    }
+}
+
+main {
+    background-color: #3AB4F2;
+    min-height: calc(100vh - 180px);
+    padding: 50px 0;
+}
+
+footer {
+    background-color: #F2DF3A;
+    height: 100px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0 30px;
+    i {
+        margin-left: 20px;
+        font-size: 30px;
+    }
+}
+
+.in-time-delated {
+    display: flex;
+    justify-content: space-between;
+    span {
+        display: block;
+    }
+}
